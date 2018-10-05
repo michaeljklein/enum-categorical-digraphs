@@ -1,0 +1,73 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f5c6bfb4809342453d723e66d146864fafadb5ce5585a571b1a5fbbfc839ad50
+
+name:           enum-categorical-digraphs
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/michaeljklein/enum-categorical-digraphs#readme>
+homepage:       https://github.com/michaeljklein/enum-categorical-digraphs#readme
+bug-reports:    https://github.com/michaeljklein/enum-categorical-digraphs/issues
+author:         Michael J. Klein
+maintainer:     lambdamichael@gmail.com
+copyright:      (c) 2018 Michael J. Klein
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/michaeljklein/enum-categorical-digraphs
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_enum_categorical_digraphs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , matrix
+    , mtl
+    , transformers
+  default-language: Haskell2010
+
+executable enum-categorical-digraphs-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_enum_categorical_digraphs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , enum-categorical-digraphs
+    , matrix
+    , mtl
+    , transformers
+  default-language: Haskell2010
+
+test-suite enum-categorical-digraphs-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_enum_categorical_digraphs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , enum-categorical-digraphs
+    , matrix
+    , mtl
+    , transformers
+  default-language: Haskell2010
