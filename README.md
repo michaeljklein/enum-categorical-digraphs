@@ -50,3 +50,8 @@ a rectangular band, congruence-free, is K -trivial or K -universal where K is an
 L -, R-, or J -relation, and when <D> has a left, right, or two-sided zero.
 ```
 
+
+# Docs
+
+Haddock generated documentation may be found [here](https://michaeljklein.github.io/enum-categorical-digraphs/)
+
