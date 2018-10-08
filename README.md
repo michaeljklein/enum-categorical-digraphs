@@ -37,7 +37,7 @@ should represent valid categories.
 ## References
 
 See [Structural aspects of semigroups based on digraphs](https://arxiv.org/pdf/1704.00937.pdf)
-on arxiv for an encoding of semgroups as digraphs with a number of .
+on arxiv for an encoding of semgroups as digraphs.
 
 From the abstract:
 
